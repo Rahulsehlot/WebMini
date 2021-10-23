@@ -1,0 +1,156 @@
+.footer-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 360px; /* Height of the footer */
+  background: #d2dde4;
+}
+
+.footer-lft {
+  width: 300px;
+  margin-left: -100px;
+  margin-top: -52px;
+}
+
+.footer-Name {
+  width: 50px;
+}
+.FootImage {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.Name {
+  margin-left: 70px;
+  margin-top: -40px;
+  white-space: nowrap;
+  font-size: 30px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.Name span {
+  color: #104b6f;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: -5px;
+}
+
+.footer-lft p {
+  color: #104b6f;
+}
+
+.footer-mdl1 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 70px;
+}
+.footer-mdl1 h3 {
+  white-space: nowrap;
+  margin-left: 38px;
+  color: #104b6f;
+}
+
+.footer-mdl2 {
+  display: inline-block;
+  margin-left: 70px;
+  /* margin-top: -550px; */
+}
+.footer-mdl2 h3 {
+  white-space: nowrap;
+  margin-left: 38px;
+  color: #104b6f;
+}
+
+.footer-RGHT {
+  width: 200px;
+  margin-left: 150px;
+  /* line-height: 10px; */
+  margin-top: -90px;
+}
+
+.footer-RGHT h3 {
+  /* margin-left: 40px; */
+  color: #104b6f;
+  margin-top: 70px;
+}
+
+.subscribe span {
+  font-size: 12px;
+}
+
+.submit-btn {
+  background-color: #ff0000;
+  width: 45px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 175px;
+  z-index: 999;
+
+  margin-top: -35px;
+}
+.arrow {
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.foot-item {
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+  color: #104b6f;
+}
+
+.foot-links {
+  color: #104b6f;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 22px;
+}
+
+.email {
+  margin-left: 3px;
+  margin-top: 8px;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 30px;
+  border: 0.5px solid #19567c;
+  border-right: none;
+  background-color: transparent;
+  height: 30px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.CompanyName span {
+  white-space: nowrap;
+  /* margin-left: 90px;
+  margin-top: -15px; */
+  font-size: 12px;
+}
+
+.compName {
+  display: inline-block;
+}
+
+.GST {
+  display: inline-block;
+}
+
+.GST span {
+  font-size: 12px;
+}
+
+::placeholder {
+  color: #104b6f;
+  text-align: left;
+}

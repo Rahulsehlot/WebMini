@@ -1,0 +1,181 @@
+.layoutLogin {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 370px 370px 45px 1fr;
+  grid-template-rows: 50px 550px 1fr;
+}
+
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 70px;
+  width: 120%;
+  margin-left: -80px;
+  margin-top: 250px;
+  border-radius: 15px;
+  grid-row: 2/4;
+  grid-column: 4/5;
+  object-fit: contain;
+}
+
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  border-top: none;
+  border-top: none;
+  border-left: none;
+  border: bottom 2px;
+  border-radius: 2px;
+}
+
+.FormElementsLogin {
+  height: 40px;
+  width: 500px;
+  border: 1.5px solid rgb(145, 145, 145);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.LoginForm,
+span {
+  color: #104b6f;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.h1-welcomeLogin {
+  color: #104b6f;
+  font-size: 25px;
+  /* margin-top: -280px; */
+  font-weight: bold;
+  margin-left: 28px;
+  white-space: nowrap;
+}
+
+.Logologin {
+  height: 60px;
+  width: 60px;
+  margin-left: 450px;
+}
+
+.LogoLogin {
+  width: fit-content;
+  /* margin-left: -20px; */
+  margin-top: 70px;
+  grid-row: 2;
+  grid-column: 2/5;
+  height: fit-content;
+  width: fit-content;
+}
+.mainContainerLogin {
+  height: 550px;
+  width: 400px;
+  /* margin-top: -600px; */
+  /* margin-left: 150px; */
+  grid-row: 2;
+  grid-column: 2/3;
+}
+
+.imageContainerLogin {
+  grid-row: 2;
+  grid-column: 3/4;
+  margin-left: -500px;
+}
+
+.tNcLogin a {
+  text-decoration: none;
+  color: #104b6f;
+}
+.btn-Login {
+  background-color: #104b6f;
+  color: white;
+  width: 510px;
+  height: 50px;
+  /* padding: 8px 23px; */
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+}
+
+.acnt-Singup-div {
+  margin-top: 10px;
+}
+.login-div {
+  margin-top: 10px;
+}
+.acnt-Singup {
+  align-items: center;
+  text-align: center;
+  color: #104b6f;
+  margin-top: 20px;
+}
+
+.acnt-Singup a {
+  color: #ff0000;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.partner-Singup {
+  margin-top: 20px;
+}
+.partner-Singup,
+.Partner-Singup {
+  color: #ff0000;
+  font-weight: bold;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+
+.Acnt-Singup {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+  .imageContainerLogin {
+    display: none;
+  }
+  .LoginContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+  }
+  .LogoLogin,
+  .Logologin {
+    position: relative;
+    top: -50px;
+    margin-left: 30px;
+  }
+
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 100%; */
+    margin-left: -600px;
+    align-items: flex-start;
+  }
+
+  .FormElementsLogin {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .h1-welcomeLogin {
+    color: #104b6f;
+    font-size: 25px;
+    /* margin-top: -280px; */
+    font-weight: bold;
+    margin-left: -824px;
+    white-space: nowrap;
+  }
+}

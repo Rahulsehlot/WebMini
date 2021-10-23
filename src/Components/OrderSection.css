@@ -1,0 +1,66 @@
+.Div-Layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.OrderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #104b6f;
+  width: 600px;
+  height: 180px;
+  margin-top: 200px;
+  border-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.OrderContainer span {
+  color: white;
+}
+.MakeYourOrder {
+  background-color: #104b6f;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.MedicalAssistant {
+  background-color: #104b6f;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  height: 35px;
+  width: 150px;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.MakeYourOrder:hover,
+.MedicalAssistant:hover {
+  background-color: white;
+  color: #104b6f;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.OrderContainer span {
+  font-size: 25px;
+  font-weight: lighter;
+  width: 250px;
+  margin-left: -30px;
+  margin-top: -15px;
+}

@@ -1,0 +1,92 @@
+.Tempcontainer {
+  margin-top: 150px;
+}
+.we-do-Conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1080px;
+  /* margin-left: -500px; */
+}
+.heading {
+  margin-top: 150px;
+  margin-left: -80px;
+  color: #104b6f;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 200px;
+  margin-top: 75px;
+  margin-left: -80px;
+}
+
+.Service-24 {
+  margin-left: 0px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #104b6f;
+  /* width: 233px;
+    height: 92px; */
+  text-align: left;
+  letter-spacing: 0px;
+}
+.XpressDelivery {
+  margin-left: 120px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #104b6f;
+  /* width: 233px;
+      height: 92px; */
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.EasyPayment {
+  margin-left: 120px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #104b6f;
+  /* width: 233px;
+      height: 92px; */
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.LocalPharmacy {
+  margin-left: 120px;
+  font-size: 10px;
+  line-height: 15px;
+  color: #104b6f;
+  /* width: 233px;
+      height: 92px; */
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.Service-24 span,
+.LocalPharmacy span,
+.EasyPayment span,
+.XpressDelivery span {
+  color: #ff0000;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.ExpressDeliveryImg,
+.hourServiceImg,
+.EasyPaymentImg,
+.LocalPharmacyImg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.ExpressDeliveryImg,
+.LocalPharmacyImg {
+  margin-top: 15px;
+}

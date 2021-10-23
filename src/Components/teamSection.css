@@ -1,0 +1,33 @@
+.teamSectionLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+.teamSection_headin {
+  margin-top: -100px;
+  margin-left: 280px;
+  color: #104b6f;
+}
+
+.teamSection-imageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 450px;
+  margin-left: -600px;
+  width: 900px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.teamSection-imageContainer p {
+  width: 200px;
+  margin-right: 50px;
+  color: #104b6f;
+  font-size: 10px;
+  font-weight: normal;
+}

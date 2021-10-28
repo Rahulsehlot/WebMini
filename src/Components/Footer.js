@@ -95,6 +95,7 @@ function Footer() {
           <h3>Subscribe </h3>
           <div className="subscribe">
             <span>Subscribe to get the latest updates</span>
+
             <input
               className="email"
               type="email"

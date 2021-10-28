@@ -90,3 +90,61 @@
 .LocalPharmacyImg {
   margin-top: 15px;
 }
+
+@media screen and (max-width: 960px) {
+  .Tempcontainer {
+  }
+
+  .heading {
+    margin-left: 20px;
+    margin-top: 400px;
+    margin-bottom: -15px;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .EasyPayment,
+  .XpressDelivery,
+  .Service-24,
+  .LocalPharmacy {
+    width: 70px;
+    /* margin-top: -20px; */
+  }
+  .XpressDelivery span,
+  .Service-24 span,
+  .EasyPayment span,
+  .LocalPharmacy span {
+    margin-top: -50px;
+  }
+
+  .ExpressDeliveryImg,
+  .EasyPaymentImg,
+  .hourServiceImg,
+  .LocalPharmacyImg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Service-24 {
+    margin-left: -90px;
+  }
+
+  .XpressDelivery {
+    margin-top: -240px;
+    margin-left: 250px;
+  }
+
+  .EasyPayment {
+    margin-top: 50px;
+    margin-left: -100px;
+  }
+
+  .LocalPharmacy {
+    margin-top: -240px;
+    margin-left: 250px;
+  }
+}

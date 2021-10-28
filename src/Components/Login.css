@@ -150,32 +150,36 @@ span {
   .LogoLogin,
   .Logologin {
     position: relative;
-    top: -50px;
-    margin-left: 30px;
+    top: 30px;
+    margin-left: 60px;
   }
 
   .LoginForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    /* width: 100%; */
-    margin-left: -600px;
     align-items: flex-start;
+    width: 70%;
+    margin-left: -1050px;
+    margin-right: 70px;
+    white-space: nowrap;
+    /* align-items: flex-start; */
   }
 
   .FormElementsLogin {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    /* width: 75vw; */
+    align-items: center;
+    justify-self: left;
   }
+
   .h1-welcomeLogin {
     color: #104b6f;
     font-size: 25px;
-    /* margin-top: -280px; */
+    margin-top: 120px;
     font-weight: bold;
-    margin-left: -824px;
+    margin-left: -624px;
     white-space: nowrap;
   }
 }

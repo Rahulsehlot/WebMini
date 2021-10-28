@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './Login.css'
 import LogoMW from '../Images/mediwheelLogo.png'
@@ -46,7 +46,7 @@ export class Login extends Component {
                   onChange={this.handleCheckboxChange}
                 />
               </label>
-              <span className="tNcLogin">Terms and condition.</span>
+              <span className="TNcLogin">Terms and condition.</span>
             </div>
             <div>
               <button className="btn-Login">LOGIN</button>

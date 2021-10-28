@@ -198,3 +198,19 @@ span {
   margin-left: 210px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 960px) {
+  .imageContainer {
+    display: none;
+  }
+
+  .Scroll {
+    margin-left: -700px;
+    margin-top: 200px;
+  }
+
+  .Logosignup {
+    margin-left: -300px;
+    margin-top: 50px;
+  }
+}

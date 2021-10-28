@@ -64,3 +64,50 @@
   margin-left: -30px;
   margin-top: -15px;
 }
+
+@media screen and (max-width: 960px) {
+  .OrderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 180px;
+  }
+
+  .Div-Layout span {
+    font-size: 20px;
+    margin-left: 20px;
+    white-space: normal;
+  }
+
+  .MakeYourOrder {
+    background-color: #104b6f;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    height: 5vh;
+    width: 25vw;
+    font-size: 10px;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    margin-right: 10px;
+  }
+
+  .MedicalAssistant {
+    background-color: #104b6f;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    height: 5vh;
+    width: 25vw;
+    font-size: 10px;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    margin-right: 10px;
+  }
+
+  .orderContainer {
+    margin-left: -20px;
+  }
+}

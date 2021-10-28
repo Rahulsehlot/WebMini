@@ -198,3 +198,17 @@ span {
   margin-left: 210px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 960px) {
+  .imageContainerSignupPartner {
+    display: none;
+  }
+
+  .Logosignuppartner {
+    margin-left: -325px;
+  }
+
+  .ScrollSignupPartner {
+    margin-left: -700px;
+  }
+}

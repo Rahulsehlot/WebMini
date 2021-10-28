@@ -1,7 +1,7 @@
 import React from 'react'
 import Playbtn from '../Images/PlayButton.svg'
 import ImageMDW from '../Images/MainPageImage.png'
-import LogoMW from '../Images/mediwheelLogo.png'
+// import LogoMW from '../Images/mediwheelLogo.png'
 import './HomeSection.css'
 
 function HomeSection() {

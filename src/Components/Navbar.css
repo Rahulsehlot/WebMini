@@ -20,8 +20,8 @@
 
 .textLogo {
   justify-self: start;
-  margin-left: -100px;
-  margin-top: 100px;
+  margin-left: -150px;
+  margin-top: 20px;
   cursor: pointer;
   align-items: center;
 }
@@ -150,11 +150,14 @@ button {
   .nav-menu.active {
     /* background: #fff; */
     /* opacity: 1; */
-    margin-left: 195%;
+
+    margin-left: 190%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.1s;
     z-index: 0;
     margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.782);
+    height: 100vh;
   }
 
   .nav-links {
@@ -163,6 +166,7 @@ button {
     /* width: 100%;  */
     display: table;
     text-align: center;
+    padding-top: 5px;
   }
 
   .searchBar {
@@ -171,9 +175,10 @@ button {
   .nav-links:hover {
     background-color: #104b6f;
     color: #ff0000;
-    /* border-radius: 5%; */
+    border-radius: 5px;
     height: 30px;
-    width: 100vw;
+    width: 220px;
+    /* padding-top: 5px; */
   }
 
   .nav-logo {

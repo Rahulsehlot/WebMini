@@ -9,12 +9,12 @@
   /* margin-top: -800px; */
   height: 0;
   position: sticky;
-  margin-left: -200px;
+  margin-left: 180px;
   margin-top: 20px;
 }
 .left-mdl-container {
   margin-top: 70px;
-  margin-left: -340px;
+  margin-left: -540px;
   width: 400px;
   line-height: 50px;
 }
@@ -92,8 +92,83 @@
   height: 130px;
 }
 .imageMDW {
-  margin-left: 100px;
+  /* margin-left: -230px; */
   width: 503px;
   height: 341px;
   margin-top: -316px;
+}
+
+@media screen and (max-width: 960px) {
+  .layoutMain {
+    display: flex;
+    width: fit-content;
+    margin-left: 0px;
+  }
+
+  .mainContainerHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  .rght-mdl-img,
+  .imageMDW {
+    width: 75vw;
+    height: 230px;
+    margin-top: -230px;
+    margin-left: -60px;
+  }
+
+  .left-mdl-container {
+    margin-top: 440px;
+    width: 350px;
+    line-height: 20px;
+    margin-left: -127px;
+  }
+
+  .left-mdl-h1,
+  .left-mdl-h1 span {
+    font-size: 15px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+
+  .left-mdl-h2 {
+    font-size: 10px;
+    width: 230px;
+    font-weight: bold;
+  }
+
+  .left-mdl-h2 span {
+    font-size: 20px;
+  }
+
+  .left-mdl-h3 {
+    font-size: 11px;
+    width: 230px;
+    font-weight: bold;
+  }
+
+  .Mke-order-btn {
+    height: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+  .video-btn {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .ply-Video {
+    margin-top: -25px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .playbtn {
+    height: 20px;
+    margin-left: 0.2px;
+  }
 }

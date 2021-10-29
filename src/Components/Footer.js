@@ -95,17 +95,18 @@ function Footer() {
           <h3>Subscribe </h3>
           <div className="subscribe">
             <span>Subscribe to get the latest updates</span>
-
-            <input
-              className="email"
-              type="email"
-              name="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              required
-              placeholder="Drop your email"
-            />
-            <div className="submit-btn">
-              <img className="arrow" src={arrow} alt="arrow" />
+            <div className="EmailContainer">
+              <input
+                className="email"
+                type="email"
+                name="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                required
+                placeholder="Drop your email"
+              />
+              <div className="submit-btn">
+                <img className="arrow" src={arrow} alt="arrow" />
+              </div>
             </div>
           </div>
           <div className="CompanyName">

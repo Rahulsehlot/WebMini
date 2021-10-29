@@ -83,6 +83,7 @@
 
 .subscribe span {
   font-size: 12px;
+  white-space: nowrap;
 }
 
 .submit-btn {
@@ -184,6 +185,16 @@
   .footer-RGHT {
     font-size: 10px;
     margin-top: -40px;
-    margin-left: -20px;
+    margin-left: -25px;
+  }
+
+  .footer-RGHT h3 {
+    margin-left: 5px;
+  }
+
+  .subscribe span {
+    font-size: 10px;
+    white-space: nowrap;
+    margin-left: 5px;
   }
 }

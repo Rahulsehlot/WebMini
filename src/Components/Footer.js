@@ -1,8 +1,8 @@
-import React from 'react'
-import Logo from '../Images/mediwheelLogo.png'
-import arrow from '../Images/arrow.png'
-import { Link } from 'react-router-dom'
-import './Footer.css'
+import React from "react";
+import Logo from "../Images/mediwheelLogo.png";
+import arrow from "../Images/arrow.png";
+import { Link } from "react-router-dom";
+import "./Footer.css";
 function Footer() {
   return (
     <div className="footerLayout">
@@ -118,7 +118,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

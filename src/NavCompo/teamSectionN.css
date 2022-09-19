@@ -1,0 +1,93 @@
+.teamSectionLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+}
+
+.teamSection_headin {
+  margin-top: -100px;
+  margin-left: 280px;
+  color: #104b6f;
+}
+
+.teamSection-imageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 216px;
+  margin-left: -600px;
+  width: 900px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.teamSection-imageContainer p {
+  width: 200px;
+  margin-right: 50px;
+  color: #104b6f;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 960px) {
+  .as {
+    display: none;
+  }
+  .teamSection_headin {
+    white-space: nowrap;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .teamSectionLayout {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .teamSection-imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: -170px;
+  }
+
+  .member1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .member2,
+  .member3,
+  .member4 {
+    margin-bottom: 20px;
+  }
+
+  .member1,
+  .member1 p,
+  .member2,
+  .member2 p,
+  .member3,
+  .member3 p,
+  .member4,
+  .member4 p {
+    width: 180px;
+    font-size: 10px;
+  }
+}
+
+.member1N,
+.member2N,
+.member3N,
+.member4N {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  margin-left: 30px;
+}
